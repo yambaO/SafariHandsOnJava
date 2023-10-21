@@ -1,3 +1,5 @@
+package IntroJava;
+
 public class CommentClass {
     /*
          learning some java 101

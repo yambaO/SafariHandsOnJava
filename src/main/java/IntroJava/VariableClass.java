@@ -1,3 +1,5 @@
+package IntroJava;
+
 public class VariableClass {
     public static void main(String [] args){
         int  myAge; // declaration

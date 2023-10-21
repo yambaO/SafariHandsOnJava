@@ -1,3 +1,5 @@
+package IntroJava;
+
 import java.util.Scanner;
 public class Proj2_1_AverageOfThree {
     public static void main( String [] args){

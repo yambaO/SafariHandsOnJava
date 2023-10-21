@@ -1,3 +1,5 @@
+package IntroJava;
+
 public class ConversionClass {
     public static void main (String [] Args){
         double myDouble = 3.14;

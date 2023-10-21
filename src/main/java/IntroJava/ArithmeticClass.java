@@ -1,3 +1,5 @@
+package IntroJava;
+
 public class ArithmeticClass {
     public static void main (String[] Args){
         int a = 10;

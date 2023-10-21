@@ -1,3 +1,5 @@
+package IntroJava;
+
 public class LogicalOperatorsClass {
    public static void main ( String[] arg){
        boolean isRaining = true;
