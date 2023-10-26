@@ -5,22 +5,35 @@ public class Proj3_1_LearningPackages {
         String packageName;
         int numberOfCoursesEnrolled;
         int totalPrice;
+        int baseCost;
+        int costPerCourse;
+        int numIncluded;
         Scanner keyboard = new Scanner(System.in);
         System.out.print("Which package do you have? 1 , 2 or 3:\t");
         packageName = keyboard.nextLine();
-        System.out.print("How many courses did you enrolled? Package: \t");
+        System.out.print("How many courses did you enrolled in this month? \t");
         numberOfCoursesEnrolled = keyboard.nextInt();
         switch (packageName){
             case "1":
-                totalPrice = (numberOfCoursesEnrolled * 6) + 10;
+                baseCost =10;
+                costPerCourse = 6;
+                numIncluded = 2;
+
+                totalPrice = ((numberOfCoursesEnrolled - numIncluded ) * costPerCourse) + baseCost;
                 System.out.println("The total price for learning package 1 this month is: " + "$" + totalPrice);
                 break;
             case "2":
-                totalPrice = (numberOfCoursesEnrolled * 4) + 12;
+                baseCost =12;
+                costPerCourse = 4;
+                numIncluded = 4;
+                totalPrice = ((numberOfCoursesEnrolled - numIncluded )* costPerCourse) + baseCost;
                 System.out.println("The total price for learning package 2 this month is: " + "$" + totalPrice);
                 break;
             case "3":
-                totalPrice = (numberOfCoursesEnrolled * 3) + 15;
+                baseCost =15;
+                costPerCourse = 3;
+                numIncluded = 6;
+                totalPrice = ((numberOfCoursesEnrolled - numIncluded ) * costPerCourse) + baseCost;
                 System.out.println("The total price for learning package 3 this month is: " + "$" + totalPrice);
                 break;
             default :
