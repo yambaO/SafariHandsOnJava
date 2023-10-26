@@ -1,4 +1,4 @@
-package Randomnumber;
+package ControlStatements;
 import java.util.Scanner;
 public class Proj3_1_LearningPackages {
     public static void main (String[] args){
