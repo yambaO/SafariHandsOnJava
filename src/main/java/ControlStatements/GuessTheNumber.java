@@ -8,7 +8,6 @@ public class GuessTheNumber {
         Scanner keyboard = new Scanner(System.in);
         Random number = new Random();
         computerNumber = number.nextInt(100)+ 1;
-        //        System.out.println("Computer number is : " + computerNumber);
 
         for(int i = 1; i > 0; i++){
             System.out.println("Please guess a number : \t");
