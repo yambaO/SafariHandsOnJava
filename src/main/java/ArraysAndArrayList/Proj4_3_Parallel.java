@@ -8,10 +8,6 @@ public class Proj4_3_Parallel {
         Scanner keyboard = new Scanner(System.in);
         ArrayList<String> names = new ArrayList<>();
         ArrayList<Integer> ages = new ArrayList<>();
-//        System.out.println("Please enter your name");
-//        inputName = keyboard.next();
-//        System.out.println("please enter your age");
-//        inputAge = keyboard.nextInt();
         for(int i = 0 ; i < 5 ; i ++ ){
 
             System.out.println("Please enter your name");
@@ -21,7 +17,7 @@ public class Proj4_3_Parallel {
             names.add(inputName);
             ages.add(inputAge);
         }
-        for(int i = 0; i < names.size(); i++) {
+        for(int i = names.size() -1 ; i >= 0 ; i--) {
 
                 System.out.println(names.get(i) + " is " + ages.get(i) + " years old");
 
