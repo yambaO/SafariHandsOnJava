@@ -14,5 +14,8 @@ public class StringBuilderClass {
 
       sb.delete(5,13);
       System.out.println(sb);
+
+      sb.replace(0,4, "Dr.");
+      System.out.println(sb);
     } //end of main
 }
