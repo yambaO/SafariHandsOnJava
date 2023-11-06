@@ -32,4 +32,7 @@ public class Rectangle {
      public static int getNumRectangles(){
         return numRectangles;
      }
+     public double perimeter(){
+        return (2* length) + (2*width);
+     }
 }
